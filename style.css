@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'cute-love';
+    src: url('Cute-Love.ttf') format('truetype');
+  }
+
+
+@layer utilities {
+
+    .bg-gradient{
+        background-image: linear-gradient(to bottom, #FFFFFF, #F4E2FE);
+        height: 100vh;
+    }
+
+    .poppins{
+        font-family: 'Poppins';
+      }
+
+      .outfit{
+        font-family: 'Outfit';
+      }
+
+      .btn-linear{
+        background: linear-gradient(180deg, #B764E9 0%, #B971E4 0.01%, #2642D8 100%);
+      }
+
+
+
+
+
+      .linear-1{
+        background: linear-gradient(180deg, #B764E9 0%, #B971E4 0.01%, #2642D8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+      }
+
+      .font-cute-love{
+        font-family: 'cute-love';
+      }
+
+
+
+    .content-auto {
+      content-visibility: auto;
+    }
+    .font-rage{
+        font-family: 'rage-regular';
+    }
+    .main-c{
+        background-color: #ff007a;
+    }
+    @media screen and (max-width: 1024px) {
+        .main-c{
+            margin-bottom: 10px;
+        }
+        .main-c2{
+            margin-bottom: 10px;
+        }
+    }
+    .main-c2{
+        background-color: #1b1b1b;
+    }
+    .main-c:hover{
+        color: #ff007a;
+        border-color: #ff007a;
+        background-color: #ff007a;
+    }
+
+    .bg-color{
+        background-color: #0a0a0a;
+    }
+    
+    .bebas{
+        font-family: 'Bebas Neue';
+     }
+     
+      @media screen and (max-width: 608px) {
+        .bg-image{
+            background-image: url(img/bg-mobile.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+          }
+      }
+      .top1 {
+        top: 176px;
+    }
+      .top2{
+        top: 225px;
+        
+      }
+      .top3{
+        top: 270px;
+      }
+
+      .top-c{
+        top: 20rem;
+        position: absolute;
+      }
+
+      .height{
+        height: 100vh;
+      }
+      
+        .gap-b {
+          gap: 5.5rem/* 128px */;
+      }
+
+      .gap-c {
+        gap: 4.6rem/* 80px */;
+    }
+    .-mt {
+      margin-top: -29.1rem/* -384px */;
+  }
+
+  .mr-2 {
+    margin-left: 66.3rem/* 40px */;
+}
+
+   .about-img1{
+       background-image: url(img/about1.png);
+        background-size: 150%;
+        background-repeat: no-repeat;
+
+   }
+
+   .about-img2{
+    background-image: url(img/about2.png);
+     background-size: auto;
+     background-repeat: no-repeat;
+     
+   }
+
+   .about-img3{
+    background-image: url(img/about3.png);
+     background-size: auto;
+     background-repeat: no-repeat;
+   }
+
+
+  }

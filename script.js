@@ -155,6 +155,8 @@ tailwind.config = {
             pink: colors.pink,
             rose: colors.rose,
             cu: '#e11937',
+            textblack: 'rgba(0, 0, 0, 0.85)',
+
           }),
           columns: {
             auto: 'auto',
@@ -245,6 +247,8 @@ tailwind.config = {
             lg: ['0 10px 8px rgb(0 0 0 / 0.04)', '0 4px 3px rgb(0 0 0 / 0.1)'],
             xl: ['0 20px 13px rgb(0 0 0 / 0.03)', '0 8px 5px rgb(0 0 0 / 0.08)'],
             '2xl': '0 25px 25px rgb(0 0 0 / 0.15)',
+            headshadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+            headshadow2: '3px 4px 25.6px 3px rgba(0, 0, 0, 0.16)',
             none: '0 0 #0000',
           },
           fill: ({ theme }) => ({
@@ -357,6 +361,7 @@ tailwind.config = {
             0: '0',
             DEFAULT: '100%',
           },
+          
           gridAutoColumns: {
             auto: 'auto',
             min: 'min-content',
@@ -952,6 +957,7 @@ tailwind.config = {
         colors: {
           clifford: '#da373d',
           main: '#ff007a',
+
           cards: '#1e1e1e',
           ash: '#626262',
         },
