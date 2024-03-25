@@ -156,6 +156,9 @@ tailwind.config = {
             rose: colors.rose,
             cu: '#e11937',
             textblack: 'rgba(0, 0, 0, 0.85)',
+            bluebg: 'rgba(38, 66, 216, 0.25)',
+            purplebg: 'rgba(183, 100, 233, 0.25)',
+            yellowbg: 'rgba(255, 107, 0, 0.25)',
 
           }),
           columns: {
@@ -957,7 +960,6 @@ tailwind.config = {
         colors: {
           clifford: '#da373d',
           main: '#ff007a',
-
           cards: '#1e1e1e',
           ash: '#626262',
         },
