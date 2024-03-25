@@ -504,6 +504,8 @@ tailwind.config = {
             min: 'min-content',
             max: 'max-content',
             fit: 'fit-content',
+            
+
           }),
           hueRotate: {
             0: '0deg',
@@ -658,6 +660,7 @@ tailwind.config = {
             70: '0.7',
             75: '0.75',
             80: '0.8',
+            85: '0.85',
             90: '0.9',
             95: '0.95',
             100: '1',

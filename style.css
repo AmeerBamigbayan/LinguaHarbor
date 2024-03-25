@@ -39,6 +39,15 @@
         font-family: 'cute-love';
       }
 
+      .student-img{
+        height: 58px;
+        width: 148px;
+      }
+
+      .join{
+        line-height: 20.16px;
+      }
+
 
 
     .content-auto {
