@@ -48,6 +48,25 @@
         line-height: 20.16px;
       }
 
+      .home-img-1{
+        width: 255px;
+        height: 320px;
+       
+      }
+      
+      .home-img-2{
+        width: 168px;
+        height: 230.22px;
+      
+      }
+
+      .home-img-3{
+        width: 209px;
+        height: 172px;
+        position: absolute;
+      }
+
+
 
 
     .content-auto {
