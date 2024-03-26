@@ -66,6 +66,11 @@
         position: absolute;
       }
 
+      .review-img{
+        width: 265px;
+        height: 101px;
+        z-index: 10;
+      }
 
 
 
