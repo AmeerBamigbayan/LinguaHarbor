@@ -79,6 +79,12 @@
         height: 193px;
       }
 
+      .bg-gradient2{
+        background-image: linear-gradient(to bottom, #FFFFFF, #F4E2FE);
+        height: 115rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 
 
 
