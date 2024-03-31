@@ -13,6 +13,8 @@
     .bg-gradient{
         background-image: linear-gradient(to bottom, #FFFFFF, #F4E2FE);
         height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .poppins{
