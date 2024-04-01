@@ -351,6 +351,7 @@ tailwind.config = {
             hs: ['36px', { lineHeight: '45.36px' }],
             dd: ['14px', { lineHeight: '13.65px' }],
             rr: ['16px', { lineHeight: '20.16px' }],
+            ss: ['24px', { lineHeight: '30.24px' }],
             '2xl': ['1.5rem', { lineHeight: '2rem' }],
             '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
             '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
