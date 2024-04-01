@@ -163,6 +163,7 @@ tailwind.config = {
             purplebg: 'rgba(183, 100, 233, 0.25)',
             purpletext: 'rgba(183, 100, 233, 1)',
             yellowbg: 'rgba(255, 107, 0, 0.25)',
+            yellowtext: 'rgba(255, 107, 0, 1)',
 
           }),
           columns: {
@@ -343,6 +344,8 @@ tailwind.config = {
             lg: ['1.125rem', { lineHeight: '1.75rem' }],
             xl: ['1.25rem', { lineHeight: '1.75rem' }],
             hh: ['48px', { lineHeight: '60.48px' }],
+            hs: ['36px', { lineHeight: '45.36px' }],
+            dd: ['14px', { lineHeight: '13.65px' }],
             '2xl': ['1.5rem', { lineHeight: '2rem' }],
             '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
             '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
