@@ -8,6 +8,45 @@
   }
 
 
+  .c-container {
+    color: #333;
+    text-align: center;
+    margin-left: -35px;
+  }
+  
+  
+  .c-content {
+    display: inline-block;
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+    background-color: rgb(255 255 255 / 0.25);;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border-radius: 18px;
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  
+  .c-time{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Outfit';
+    line-height: 37.8px;
+    margin: 0;
+    
+  }
+
+  .c-description{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18.9px;
+       
+  }
+  
+
 @layer utilities {
 
     .bg-gradient{
