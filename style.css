@@ -60,7 +60,7 @@
     position: relative;
     padding-top: 20px;
     &+.input {
-      margin-top: ;
+      margin-top: 0;
     }
   }
   
@@ -207,6 +207,7 @@
       height: 100vh;
       color: #fff;
     }
+
 
 
 
