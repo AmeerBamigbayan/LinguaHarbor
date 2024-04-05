@@ -168,6 +168,9 @@ tailwind.config = {
             purpletext: 'rgba(183, 100, 233, 1)',
             yellowbg: 'rgba(255, 107, 0, 0.25)',
             yellowtext: 'rgba(255, 107, 0, 1)',
+            g1: 'rgba(183, 100, 233, 1)',
+            g2: 'rgba(185, 113, 228, 1)',
+            g3: 'rgba(38, 66, 216, 1)',
 
           }),
           columns: {

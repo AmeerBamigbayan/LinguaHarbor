@@ -122,6 +122,12 @@
         background: linear-gradient(180deg, #B764E9 0%, #B971E4 0.01%, #2642D8 100%);
       }
 
+      .border-linear{
+        border-color: #0a0a0a;
+        border-width: 4px;
+        border-style: solid;
+      }
+
       .linear-1{
         background: linear-gradient(180deg, #B764E9 0%, #B971E4 0.01%, #2642D8 100%);
         -webkit-background-clip: text;
