@@ -101,6 +101,45 @@
 
    /*Form End*/
 
+   /*Footer form start*/
+   .input-label-2 {
+    color: #000;
+    opacity: 50%;
+    position: absolute;
+    top: 20px;
+    font-weight: 500;
+    transition: .25s ease;
+    font-size: 14px;
+  }
+  
+  .input-field-2 {
+    border: 0;
+    z-index: 1;
+    background-color: transparent;
+    border-bottom: 2px solid #eee; 
+    font: inherit;
+    font-size: 1.125rem;
+    padding-top: 1rem ;
+    width: 20rem;
+    color: #000;
+    &:focus, &:valid {
+      outline: 0;
+      border-bottom-color: #6658d3;
+     
+      &+.input-label-2 {
+        color: #6658d3;
+        font-weight: 500;
+        opacity: 100%;
+        transform: translateY(-10px);
+      }
+    }
+  }
+  
+  .action {
+    margin-top: 2rem;
+  }
+  /*Footer form end*/
+
 @layer utilities {
 
     .bg-gradient{
