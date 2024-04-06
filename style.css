@@ -255,6 +255,14 @@
   } 
   /*Footer form end*/
 
+  @media screen and (max-width: 350px) {
+    .smalll{
+       font-size: 22px;
+       line-height: 26px;
+    }
+  }
+
+
 @layer utilities {
 
     .bg-gradient{
@@ -330,7 +338,7 @@
 
       }
 
-
+      
 
       .join{
         line-height: 20.16px;
