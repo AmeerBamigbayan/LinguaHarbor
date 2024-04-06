@@ -193,6 +193,25 @@
           margin-left: -13px;
         }
 
+        .kau-1{
+          scale: 0.6;
+        }
+
+        .kau-2{
+          scale: 0.6;
+        }
+
+        .kau-3{
+          min-width: 100%;
+        }
+
+        .www{
+          margin-left: -13px;
+        }
+
+        .bbb{
+          display: none;
+        }
 
       }
 
