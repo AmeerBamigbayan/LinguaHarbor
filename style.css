@@ -188,6 +188,22 @@
     }
   }
 
+  @media screen and (max-width: 1024px) {
+    .c-container {
+      color: #333;
+      text-align: center;
+      padding-bottom: 40px;
+      margin-left: -8rem;
+      
+    }
+
+
+
+    .input-field{
+      width: 100%;
+    }
+  }
+
    /*Form End*/
 
    /*Footer form start*/
@@ -336,6 +352,16 @@
           display: none;
         }
 
+      }
+
+      @media screen and (max-width: 1024px) {
+        .bbb{
+          display: none;
+        }
+
+        .kau-3{
+          min-width: 100%;
+        }
       }
 
       
