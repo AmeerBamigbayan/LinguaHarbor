@@ -14,6 +14,8 @@
     text-align: center;
     margin-left: -35px;
   }
+
+ 
   
   
   .c-content {
@@ -45,6 +47,48 @@
     font-size: 15px;
     line-height: 18.9px;
        
+  }
+
+   @media screen and (max-width: 608px){
+
+    .c-container {
+      color: #333;
+      text-align: center;
+      padding-bottom: 40px;
+      margin-left: -28px;
+      
+    }
+    
+    .c-content {
+      display: inline-block;
+      font-size: 0px;
+      list-style-type: none;
+      color: white;
+      background-color: rgb(255 255 255 / 0.25);;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      border-radius: 18px;
+      margin-right: 2px;
+      
+    }
+    
+    .c-time{
+      display: block;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: 'Outfit';
+      line-height: 20px;
+      margin: 0;
+      
+    }
+  
+    .c-description{
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 18.9px;
+         
+    }
   }
 
    /*Countdown End*/
@@ -98,6 +142,48 @@
     margin-top: 2rem;
   }
   
+  @media screen and (max-width: 608px){
+
+    .input {
+      display: flex;
+      flex-direction: column-reverse;
+      position: relative;
+      padding-top: 14px;
+      &+.input {
+        margin-top: 0;
+      }
+    }
+    
+    .input-label {
+      color: #8597a3;
+      position: absolute;
+      top: 1.5rem;
+      transition: .25s ease;
+      font-size: 14px;
+    }
+
+    .input-field {
+      border: 0;
+      z-index: 1;
+      background-color: transparent;
+      border-bottom: 2px solid #eee; 
+      font: inherit;
+      font-size: 1.125rem;
+      padding-top: 1rem ;
+      width: 100%;
+      color: #000;
+      &:focus, &:valid {
+        outline: 0;
+        border-bottom-color: #6658d3;
+       
+        &+.input-label {
+          color: #6658d3;
+          
+          transform: translateY(-10px);
+        }
+      }
+    }
+  }
 
    /*Form End*/
 
