@@ -94,6 +94,22 @@
     }
   }
 
+  @media screen and (min-width: 609px) and (max-width: 1024px) {
+    .c-container {
+      color: #333;
+      text-align: center;
+      padding-bottom: 40px;
+      margin-left: -8rem;
+      
+    }
+
+
+
+    .input-field{
+      width: 100%;
+    }
+  }
+
    /*Countdown End*/
 
     /*Form Start*/
@@ -188,21 +204,7 @@
     }
   }
 
-  @media screen and (max-width: 1024px) {
-    .c-container {
-      color: #333;
-      text-align: center;
-      padding-bottom: 40px;
-      margin-left: -8rem;
-      
-    }
-
-
-
-    .input-field{
-      width: 100%;
-    }
-  }
+ 
 
    /*Form End*/
 
