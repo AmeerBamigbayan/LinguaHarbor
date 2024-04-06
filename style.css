@@ -187,6 +187,15 @@
         width: 148px;
       }
 
+      @media screen and (max-width: 608px) {
+        .student-img{
+          scale: 0.8;
+          margin-left: -13px;
+        }
+      }
+
+
+
       .join{
         line-height: 20.16px;
       }
@@ -206,7 +215,6 @@
       .home-img-3{
         width: 209px;
         height: 172px;
-        position: absolute;
       }
 
       .review-img{
