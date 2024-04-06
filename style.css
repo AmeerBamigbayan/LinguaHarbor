@@ -8,6 +8,11 @@
   }
 
 
+
+  body{
+    overflow-x: hidden;
+}
+
   /*Countdown Start*/
   .c-container {
     color: #333;
@@ -170,7 +175,7 @@
       font: inherit;
       font-size: 1.125rem;
       padding-top: 1rem ;
-      width: 100%;
+      width: 99%;
       color: #000;
       &:focus, &:valid {
         outline: 0;
@@ -288,7 +293,7 @@
         }
 
         .kau-3{
-          min-width: 100%;
+          min-width: 99%;
         }
 
         .www{
@@ -467,7 +472,6 @@
 
    .about-img1{
        background-image: url(img/about1.png);
-        background-size: 150%;
         background-repeat: no-repeat;
 
    }
