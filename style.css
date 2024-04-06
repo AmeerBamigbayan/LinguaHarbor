@@ -192,6 +192,8 @@
           scale: 0.8;
           margin-left: -13px;
         }
+
+
       }
 
 
@@ -230,7 +232,7 @@
 
       .bg-gradient2{
         background-image: linear-gradient(to bottom, #FFFFFF, #F4E2FE);
-        height: 112rem;
+
         background-size: contain;
         background-repeat: no-repeat;
     }
