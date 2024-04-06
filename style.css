@@ -227,6 +227,32 @@
   .action {
     margin-top: 2rem;
   }
+
+  @media screen and (max-width: 608px){
+    .input-field-2 {
+      border: 0;
+      z-index: 1;
+      background-color: transparent;
+      border-bottom: 2px solid #eee; 
+      font: inherit;
+      font-size: 1.125rem;
+      padding-top: 1rem ;
+      width: 100%;
+      color: #000;
+      &:focus, &:valid {
+        outline: 0;
+        border-bottom-color: #6658d3;
+       
+        &+.input-label-2 {
+          color: #6658d3;
+          font-weight: 500;
+          opacity: 100%;
+          transform: translateY(-10px);
+        }
+      }
+    }
+
+  } 
   /*Footer form end*/
 
 @layer utilities {
