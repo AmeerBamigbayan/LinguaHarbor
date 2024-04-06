@@ -225,7 +225,7 @@
     font: inherit;
     font-size: 1.125rem;
     padding-top: 1rem ;
-    width: 20rem;
+    width: 100%;
     color: #000;
     &:focus, &:valid {
       outline: 0;
