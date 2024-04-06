@@ -149,6 +149,9 @@
         background-repeat: no-repeat;
     }
 
+    .mb-menu{
+        background-color: #fff;
+    }
     .poppins{
         font-family: 'Poppins';
       }
