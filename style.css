@@ -280,7 +280,12 @@
     }
   }
 
+  .aos-init[data-aos][data-aos].aos-animate {
+    transform: unset;
+}
 
+
+  
 @layer utilities {
 
     .bg-gradient{
